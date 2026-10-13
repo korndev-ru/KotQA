@@ -82,7 +82,6 @@
 ## 📂 Структура проекта (Package by Feature)
 
 ```text
-src/main/kotlin/com/yourproject/qacore/
 │
 ├── bug/                    🪲 МОДУЛЬ БАГ-ТРЕКИНГА (Всё о багах в одной коробке)
 │   ├── BugReport.kt        <- Карточка бага (data class)
@@ -112,5 +111,4 @@ src/main/kotlin/com/yourproject/qacore/
 │   └── ExcelGenerator.kt   <- Генератор отчетов в Excel/CSV для аналитиков
 │
 └── Application.kt          ⚙️ ГЛАВНЫЙ ВХОД (Файл с функцией main(), запускающий Ktor)
-\```
 ```
